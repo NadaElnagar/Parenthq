@@ -1,0 +1,13 @@
+{
+    "name": "CollectData",
+    "alias": "collectdata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CollectData\\Providers\\CollectDataServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
