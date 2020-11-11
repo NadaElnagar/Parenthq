@@ -32,7 +32,7 @@ class SearchService extends ResponseService
                 $provider_y[] = $this->getFromDataProviderY($request);
                 $result = array_merge($provider_x, $provider_y);
             }
-            return $result;
+            return $this->cache_service->store_cashe_redis($cache_name, $result);
         }
     }
 
